@@ -1,0 +1,208 @@
+.containerChatBot {
+    width: 317px;
+    height: 460px;
+    margin: auto;
+    background: #ffffff;
+    margin: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+    z-index: 9000;
+    border-radius: 15px;
+}
+
+
+
+.ImageYOSI {
+    height: 140px;
+    width: 150px;
+    float: left;
+    background: #ffffff;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    z-index: 9000;
+    border-radius: 1em;
+}
+
+.WebChat {
+    width: 317px;
+    height: 380px;
+    margin: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+    z-index: 9000;
+    border-radius: 1em;
+    background: #FFFFFF;
+}
+
+.InfoFAQ {
+    height: 250px;
+    width: 150px;
+    background: #ffffff;
+    margin-top: 160px;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 0;
+    right: 0;
+    z-index: 9000;
+    border-radius: 1em;
+}
+
+.inner-webchat{
+        width: 317px;
+        height: 380px;
+        margin: 10px;
+        position: fixed;
+        bottom: 15px;
+        z-index: 9000;
+        right: 0; 
+}
+
+.webchat-minimize{
+        /* Ellipse 1 */
+        position: fixed;
+        width: 168.82px;
+        height: 168.82px;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 40px;
+        z-index: 9000;
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));
+        background: url("https://bancabotstorage.blob.core.windows.net/images/Aria-2_1.png")  no-repeat center #ECECEC;
+        background-size: cover;
+        cursor: pointer;
+}
+
+.cloud {
+    position: absolute;
+    width: 93.58px;
+    height: 91.75px;
+    border-radius: 50%;
+    left: -50px;
+    top: -40px;
+    background: url(https://bancabotstorage.blob.core.windows.net/images/nube.png);
+}
+
+.cloud>img{
+    position: absolute;
+    max-height: 40px;
+    top: 17px;
+    left: 24px;
+}
+
+
+.Header {
+    height: 60px;
+    background: #FFFFFF;
+    z-index: 9000;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    border-radius: 15px 13px;
+}
+
+.header-aria {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+        background: url("https://bancabotstorage.blob.core.windows.net/images/Aria-2_1.png")  no-repeat center #ECECEC;
+        background-size: cover;
+    z-index: 9000;
+}
+
+.header-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.header-minimize{
+    position: absolute;
+    width: 32px;
+    height: 20px;
+    right: 0px;
+    top: 20px;
+    background: #169A93;
+    border-radius: 32px 5px 5px 32px;
+    cursor: pointer;
+}
+
+.header-minus{
+    position: absolute;
+    width: 14.18px;
+    height: 2.58px;
+    top: 9px;
+    right: 5px;
+    background: #FFFFFF;
+}
+
+.header-separator{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    width: 85%;
+    margin: auto;
+}
+
+.css-1t62idy.css-1fkmac1 {
+    border-radius: 15px !important;
+}
+
+.css-o8vzus
+{
+    border-radius: 15px !important;
+}
+
+.ieless{
+    width: 289px;
+    position: fixed;
+    z-index: 9000;
+    right: 15px;
+    bottom:240px;
+    margin:10px !important;
+    font-size:14px;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .webchat-minimize{
+        /* Ellipse 1 */
+        position: fixed;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 50px;
+        z-index: 9000;
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));
+        background: url("https://bancabotstorage.blob.core.windows.net/images/Aria-2_1.png")  no-repeat center #ECECEC;
+        background-size: cover;
+        cursor: pointer;
+}
+
+    .cloud {
+        position: absolute;
+        width: 46.58px;
+        height: 46.75px;
+        border-radius: 50%;
+        left: -24px;
+        top: -5px;
+        background: url(https://bancabotstorage.blob.core.windows.net/images/nube.png);
+        background-size: cover;
+    }
+
+.cloud>img{
+    position: absolute;
+    max-height: 20px;
+    top: 11px;
+    left: 14px;
+}
+  }
+
